@@ -35,3 +35,12 @@ grid-column-gap: 10px;
 grid-row-gap: 10px;
 grid-gap: 10px;
 ```
+
+## lesson-03: Grid Lines
+* locate class into specific column and row numbers:
+```CSS
+.three {
+  grid-column: 1 / 4;
+  grid-row: 2 / 4;
+}
+```
