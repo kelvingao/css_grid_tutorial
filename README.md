@@ -82,3 +82,28 @@ grid-gap: 10px;
   justify-self: start;
 }
 ```
+## lesson-06: Create a 12-Column Grid
+* 12-column grid framework:
+```CSS
+
+header {
+  grid-column: 1 / 13;
+}
+main {
+  grid-column: 4 / 13;
+  grid-row: 2 / 4;
+}
+aside {
+  grid-column: 1 / 4;
+}
+section {
+  grid-column: 1 / 13;
+  grid-row: 4 / 6;
+}
+nav {
+  grid-column: 1 / 4;
+}
+footer {
+  grid-column: 1 / 13;
+}
+```
