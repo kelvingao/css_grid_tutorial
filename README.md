@@ -45,7 +45,7 @@ grid-gap: 10px;
 }
 ```
 
-## lesson-4: Nested Grid
+## lesson-04: Nested Grid
 * nested grid within content
 ```CSS
 .nested {
@@ -54,5 +54,31 @@ grid-gap: 10px;
   grid-gap: 10px;
   /* grid-column: 1 / 4; */
   grid-column: span 3;
+}
+```
+
+## lesson-05: Aligning & Justifying Items
+* apply all items
+```CSS
+#content {
+  /* align-items: stretch; */
+  align-items: end;
+  /* justify-items: start; */
+  justify-items: end;
+}
+```
+* specific item:
+```CSS
+.one {
+  align-self: end;
+  justify-self: end;
+}
+.two {
+  align-self: center;
+  justify-self: center;
+}
+.three {
+  align-self: start;
+  justify-self: start;
 }
 ```
