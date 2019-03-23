@@ -44,3 +44,15 @@ grid-gap: 10px;
   grid-row: 2 / 4;
 }
 ```
+
+## lesson-4: Nested Grid
+* nested grid within content
+```CSS
+.nested {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  /* grid-column: 1 / 4; */
+  grid-column: span 3;
+}
+```
